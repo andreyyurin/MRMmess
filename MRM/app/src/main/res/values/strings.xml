@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">MRM</string>
+    <string name="bg">MRM</string>
+    <string name="empty"></string>
+    <string name="you">You:</string>
+    <string name="bot">Bot:</string>
+    <string name="no_answer">I do not know this answer</string>
+
+    <!--Авторизация-->
+    <string name="enter_txt">Enter</string>
+    <string name="txt_log">Login</string>
+    <string name="txt_pass">Password</string>
+    <string name="txt_data">Enter your login and password</string>
+
+    <!--Итемы для Navigation Drawer-->
+    <string name="drawer_profile">Profile</string>
+    <string name="drawer_messages">Messages</string>
+    <string name="drawer_find">Find</string>
+    <string name="drawer_settings">Settings</string>
+    <string name="drawer_bot">Bot</string>
+    <string name="drawer_exit">Exit</string>
+
+    <!--Профиль-->
+    <string name="profile_btn">Your Profile</string>
+    <string name="country_user">Country:</string>
+    <string name="city_user">City:</string>
+    <string name="name_user">Name:</string>
+    <string name="age_user">Age:</string>
+    <string name="login_user">Login:</string>
+    <string name="surname_user">Surname:</string>
+    <string name="image_user">Image:</string>
+
+    <!--Поиск пользователя-->
+    <string name="find_user_btn">Find</string>
+    <string name="find_user_field">Enter login</string>
+
+    <!--Сообщения-->
+    <string name="mess_txt">Your dialogs:</string>
+    <string name="mess_field">Enter login</string>
+    <string name="mess_btn">Open dialog</string>
+
+    <!--Настройки-->
+    <string name="setts_txt">Settings</string>
+    <string name="setts_btn">Edit settings</string>
+    <string name="setts_btn_pass">Change password</string>
+    <string name="setts_field_name">Name</string>
+    <string name="setts_field_surname">Surname</string>
+    <string name="setts_field_country">Country</string>
+    <string name="setts_field_city">City</string>
+    <string name="setts_field_age">Age</string>
+    <string name="setts_field_pass">Old password</string>
+    <string name="setts_field_newpass">New password</string>
+    <string name="setts_field_reppass">Repeat new password</string>
+    <string name="setts_btn_exit">Exit</string>
+    <string name="change_language">Change Language</string>
+    <string name="restart">Restart MRM</string>
+
+
+    <string name="setts_field_post1">Be careful! You must fill all fields!</string>
+    <string name="setts_field_post2">Not all fields filled!</string>
+    <string name="setts_field_post3">Changed successfully!</string>
+    <string name="setts_field_post4">Oooops!Unexpected error!</string>
+
+    <!--Регистрация пользователя-->
+    <string name="reg_act_btn">Register</string>
+    <string name="name_act_field">Your name:</string>
+    <string name="surname_act_field">Your surname:</string>
+    <string name="password_act_field">Your password:</string>
+    <string name="reppassword_act_field">Repeat your password:</string>
+    <string name="city_act_field">Your city:</string>
+    <string name="country_act_field">Your country:</string>
+    <string name="age_act_field">Your age:</string>
+    <string name="login_act_field">Your login:</string>
+
+    <!--Регистрация пользователя в Java-файле(Register)-->
+    <string name="java_reg_alert1">Fill all the fields!</string>
+    <string name="java_reg_alert2">Ok</string>
+    <string name="java_reg_alert3">Passwords are different!</string>
+    <string name="java_reg_alert4">Ok</string>
+    <string name="java_reg_alert5">This login has already exists</string>
+    <string name="java_reg_alert6">Ok</string>
+    <string name="java_reg_alert7">Oooops!Unexpected error!</string>
+    <string name="java_reg_alert8">Retry</string>
+
+    <!--Авторизация пользователя в Java-файле(Main)-->
+    <string name="java_auth_alert1">Fill all the fields!</string>
+    <string name="java_auth_alert2">Ok</string>
+    <string name="java_auth_alert3">Login or password are incorrect!</string>
+    <string name="java_auth_alert4">Ok</string>
+    <string name="java_auth_alert5">Oooops!Unexpected error!</string>
+    <string name="java_auth_alert6">Retry</string>
+
+    <!--Поиск пользователя(FindUser)-->
+    <string name="java_find_txt1">Login is incorrect!</string>
+    <string name="java_find_txt2">Ok</string>
+
+    <!--Регистрация пользователя в Java-файле(Register)-->
+    <string name="java_setts_post1">Old password is incorrect!</string>
+    <string name="java_setts_post2">New passwords are different!</string>
+
+    <!--Адрес сервера-->
+    <string name="java_url">http://94.251.109.165/</string>
+
+    <!--Вывод пользователя-->
+    <string name="java_string_login">Login:&#160;</string>
+    <string name="java_string_age">Age:&#160;</string>
+
+    <!--Проверка пользователя-->
+    <string name="java_mess_alert1">Can not find this user!</string>
+    <string name="java_mess_alert2">Ok</string>
+    <string name="java_mess_alert3">Oooops!Unexpected error!</string>
+
+    <!--Отправка сообщения-->
+    <string name="send_mess_btn">Send</string>
+    <string name="send_mess_filed">Write a message</string>
+    <string name="question">Question:</string>
+    <string name="your_question">Your Question</string>
+    <string name="answer">Answer:</string>
+    <string name="your_answer">Your Answer</string>
+    <string name="calc_title">Calculator</string>
+    <string name="calc_done">Done</string>
+    <string name="bot_btn">Bot</string>
+
+    <!--Действия-->
+    <string name="cancel">Cancel</string>
+    <string name="logout">Logout</string>
+    <string name="reg_char_login">Entered prohibited characters in field of login</string>
+    <string name="reg_char_name">Entered prohibited characters in field of name</string>
+    <string name="reg_char_surname">Entered prohibited characters in field of surname</string>
+    <string name="reg_char_city">Entered prohibited characters in field of city</string>
+    <string name="reg_char_country">Entered prohibited characters in field of country</string>
+    <string name="reg_char_length">Login length should be greater than 6 characters</string>
+    <string name="java_prof_img">Upload new avatar?</string>
+    <string name="java_prof_img_yes">|  From gallery</string>
+    <string name="java_prof_img_no">No</string>
+    <string name="digit_keyboard_font">fonts/glad.ttf</string>
+    <string name="java_prof_camera">Take a photo   |</string>
+    <string name="java_auth_alert7">Oooops!Unexpected error!</string>
+
+
+    <!--Вывод пользователя в Java-файле(ProfileUser)                       НЕ РАБОТАЕТ, ВЫВОД ЧИСЛО ИЗ ПАМЯТИ
+    <string name="java_profuser_string1">Login: </string>
+    <string name="java_profuser_string2"> </string>
+    <string name="java_profuser_string3">Age: </string>
+    <string name="java_profuser_string4">City: </string>
+    <string name="java_profuser_string5">Country: </string>-->
+</resources>

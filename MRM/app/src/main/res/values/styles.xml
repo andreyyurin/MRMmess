@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="CustomAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:editTextBackground">@color/bg_get_text</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="fabStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/fabColorAccent</item>
+    </style>
+
+</resources>

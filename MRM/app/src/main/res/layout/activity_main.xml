@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/navigation_drawer"
+    android:background="@drawable/rounded"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingEnd="8dp"
+    android:paddingStart="8dp">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+        android:background="@drawable/rounded"
+        android:layout_weight="1">
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/dialog_holo_light_frame">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_find"
+                android:layout_weight="1"
+                android:src="@drawable/find_black"
+                android:background="@color/bg_img"/>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_mess"
+                android:layout_weight="1"
+                android:src="@drawable/mess_black"
+                android:background="@color/bg_img"/>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_prof"
+                android:src="@drawable/prof_black"
+                android:background="@color/bg_img"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_sett"
+                android:layout_weight="1"
+                android:src="@drawable/setts_black"
+                android:background="@color/bg_img"/>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btn_bot"
+                android:src="@drawable/bot_black"
+                android:background="@color/bg_img"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

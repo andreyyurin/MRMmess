@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_load_dia"
+                android:layout_width="match_parent"
+                android:layout_height="55sp"
+                android:background="@color/bg_img"
+                android:src="@drawable/ava_add"
+                android:layout_weight="5"
+                app:border_color="@color/bg_img"/>
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_weight="1"
+                android:id="@+id/name_surname_bar"/>
+        </LinearLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/list_mess"
+            android:orientation="vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="9"
+        android:gravity="center"
+        android:background="@android:drawable/dialog_holo_light_frame">
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/get_mess"
+                    android:singleLine="true"
+                    android:hint="@string/send_mess_filed"
+                    android:background="@android:drawable/editbox_background"
+                    android:layout_weight="1"/>
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:id="@+id/get_mess_btn"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/send"
+                    android:background="@color/bg_get_text" />
+            </LinearLayout>
+
+</LinearLayout>

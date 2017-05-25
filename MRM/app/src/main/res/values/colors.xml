@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color> //Для стандартной темы
+    <color name="colorPrimaryDark">#ffffff</color> //Для стандартной темы
+    <color name="colorAccent">#ffffff</color> //Для стандартной темы
+    <color name="background">#fff3f3f3</color> //Цвет фона приложения
+    <color name="text_color">#212121</color> //Цвет текста
+    <color name="bg_btn">#dde5e6</color> //Фон кнопок
+    <color name="bg_get_text">#e1e1e1</color> //Фон cчитывания текста
+    <color name="color_link">#ffffff</color> //TextColorLink
+    <color name="fabColorAccent">#FF5252</color>
+    <color name="bg_img">#00000000</color>
+</resources>
